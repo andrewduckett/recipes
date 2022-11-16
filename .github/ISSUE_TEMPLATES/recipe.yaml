@@ -1,6 +1,6 @@
 name: 📝 Recipe
 description: 'Submit a proposal for a new recipe'
-title: '📝 Feature: '
+title: '📝 Recipe: '
 labels: [recipe]
 body:
   - type: markdown
