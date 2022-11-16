@@ -1,0 +1,47 @@
+name: 📝 Recipe
+description: 'Submit a proposal for a new recipe'
+title: '📝 Feature: '
+labels: [recipe]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We value your time and efforts to submit this Recipe request form. 🙏
+  - type: textarea
+    id: feature-description
+    validations:
+      required: true
+    attributes:
+      label: '🔖 Recipe description'
+      description: 'A clear and concise description of what the recipe is.'
+      placeholder: 'You should add ...'
+  - type: textarea
+    id: context
+    validations:
+      required: true
+    attributes:
+      label: '🎤 Context'
+      description: 'Please explain why this recipe would be amazing, and where it could be used. Add examples, if applicable.'
+      placeholder: 'In my use-case, ...'
+  - type: textarea
+    id: implementation
+    attributes:
+      label: '✌️ Possible Implementation'
+      description: 'A clear and concise description of what you want to happen.'
+      placeholder: 'Not obligatory, but ideas as to the implementation of the recipe or change'
+  - type: checkboxes
+    id: no-duplicate-issues
+    attributes:
+      label: '👀 Have you tried this recipe before?  Had something similar?'
+      options:
+        - label: "I've had this before at..."
+          required: true
+  - type: dropdown
+    id: willing-to-submit-pr
+    attributes:
+      label: Are you willing to submit PR?
+      description: This is absolutely not required, but we are happyt to guide you through the process, and sample as neccessary.
+      options:
+        - Yes I am willing to submit a PR!
+        - No, but I'm happy to collaborate on a PR with someone else
+        - No, I don't have time to work on this right now
