@@ -1,1 +1,1 @@
-# A collection of recipe attempts.  Some ar amazing, others just exist.
+# A collection of recipe attempts.  Some are amazing, others just exist.
